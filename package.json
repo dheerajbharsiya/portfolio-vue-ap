@@ -1,13 +1,15 @@
 {
-  "name": "my-project",
+  "name": "DB",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve --disable-host-check",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bootstrap": "^5.0.2",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0"
